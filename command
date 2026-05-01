@@ -3,6 +3,16 @@ Go to root and then
 /var/www
 Then sudo chmod 777 html
 
+assignment 8
+git clone "https://github.com/moumita02314/testds.git"
+git config --global user.email "somsubhrak23@gmail.com"  and git config --global 
+user.name “somsubhrak". Verify using git config –global -- list
+git init
+git add
+git commit -m "Initial commit"
+git remote add origin "https://github.com/somsubhrak/AWSgit"
+git push -f origin master
+
 
 #!/bin/bash 
 apt-get update 
