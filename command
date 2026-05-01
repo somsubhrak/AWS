@@ -27,6 +27,7 @@ cd AWS
 npm install 
 node index.js
 
+assignment 11
 
 #!/bin/bash
 while(true)
@@ -36,7 +37,9 @@ done
 
 sudo chmod +x infi.sh
 
-  /etc/nginx/sites-available
+assignment 12
+
+cd/etc/nginx/sites-available/
 sudo nano default
 
 location /  {
@@ -48,5 +51,6 @@ location /  {
         proxy_cache_bypass $http_upgrade;
     }
 
+sudo nginx -t
 sudo systemctl restart nginx
   
