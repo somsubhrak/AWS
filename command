@@ -1,3 +1,9 @@
+assignment 7
+Go to root and then 
+/var/www
+Then sudo chmod 777 html
+
+
 #!/bin/bash 
 apt-get update 
 apt-get install -y nginx 
