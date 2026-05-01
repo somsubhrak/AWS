@@ -8,7 +8,7 @@ git clone "https://github.com/moumita02314/testds.git"
 git config --global user.email "somsubhrak23@gmail.com"  and git config --global 
 user.name “somsubhrak". Verify using git config –global -- list
 git init
-git add
+git add .
 git commit -m "Initial commit"
 git remote add origin "https://github.com/somsubhrak/AWSgit"
 git push -f origin master
